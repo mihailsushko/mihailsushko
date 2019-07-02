@@ -32,13 +32,20 @@ p {
 a {
     text-decoration: none;
 }
-  
-a:link {
-    color: #ffffff;
-}
-  
+    
   
 a:hover, a:focus {
     text-decoration: underline;
-    color: #97f784;
+    color: #e8abee;
+    text-shadow: 0 0 10px;
 } 
+.float-right {
+    float: right;
+    margin: 0 0 0 15px;
+    width: 300px;
+}
+main {
+    float: left;
+    width: 70%;
+    padding: 0 1.5em;
+}
