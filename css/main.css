@@ -1,0 +1,44 @@
+h1 {
+    margin-left: 2rem;
+}
+
+p {
+    margin-left: 2rem;
+}
+
+.navbar {
+    width: 100%;
+    background: rgb(56, 56, 179);
+    height: 40px;
+}
+
+.navbar-items {
+    float: right;
+    margin-top: 0%;
+    padding-right: 2em;
+}
+
+.navbar-items li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 2em;  
+    margin-top: 0.5em; 
+}
+.navbar a {
+    font-size: 1.2em;
+    font-style: bold;
+    color: #ffffff; 
+}
+a {
+    text-decoration: none;
+}
+  
+a:link {
+    color: #ffffff;
+}
+  
+  
+a:hover, a:focus {
+    text-decoration: underline;
+    color: #97f784;
+} 
