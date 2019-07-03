@@ -1,3 +1,13 @@
+
+
+html {
+    font-size: 20px;
+    font-family: sans-serif;
+    background: url(../images/Pngtree.png);
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: 53%;
+}
 h1 {
     margin-left: 2rem;
 }
@@ -8,8 +18,15 @@ p {
 
 .navbar {
     width: 100%;
-    background: rgb(56, 56, 179);
-    height: 40px;
+    background: url(../images/Pngtree.png) rgb(56, 56, 179);
+    background-attachment: fixed;
+    display: block;
+}
+
+.logo {
+    margin-left: 2em;
+    display: inline-block;
+    padding: 10px 0px;
 }
 
 .navbar-items {
@@ -22,12 +39,13 @@ p {
     list-style: none;
     display: inline-block;
     margin-left: 2em;  
-    margin-top: 0.5em; 
+    padding: 10px 10px;
 }
 .navbar a {
     font-size: 1.2em;
     font-style: bold;
     color: #ffffff; 
+    padding: 10px 20px;
 }
 a {
     text-decoration: none;
@@ -39,6 +57,27 @@ a:hover, a:focus {
     color: #e8abee;
     text-shadow: 0 0 10px;
 } 
+
+.top-header {
+    background: url(../images/lake-como-index.jpg);
+    background-attachment: fixed;
+    background-position: top center;
+    background-size: 100%;
+    width: 100vw;
+    height: 500px;
+    text-align: center;
+}
+.blog-post {
+    box-shadow: 0 0 10px;
+    padding: 10px 10px;
+    background-color: rgb(203, 248, 248);
+    margin: 20px;
+    overflow: auto;
+}
+
+.blog-post--image {
+    margin: auto 10px;
+}
 .float-right {
     float: right;
     margin: 0 0 0 15px;
@@ -49,3 +88,4 @@ main {
     width: 70%;
     padding: 0 1.5em;
 }
+
