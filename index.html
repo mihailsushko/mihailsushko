@@ -9,100 +9,42 @@
     <meta name="description" lang="en" content="Test Mihail Sushko`s website, mihailsushko">
     <meta name="keywords" lang="ua" content="Тестовый сайт, Михаил Сушко, mihailsushko">
     <meta name="keywords" lang="en" content="Test website, Sushko, mihailsushko">
-    <style> 
-    .blog{
- margin: 4em 0;
- position: relative; 
-}
-.blog h2{
- color:#F97300;
- margin: 2em; 
-}
-.blog .card{
- box-shadow: 0 0 20px #ccc;
-}
-.blog .card img{
- width: 100%;
- height: 12em;
-}
-.blog .card-title{
- color:#F97300;
-  
-}
-.blog .card-body{
- padding: 1em;
-}
+
+    <style>
+        @import url("./css/navbar.css");
     </style>
 </head>
 
 <body>
-    <ul>
-        <li><a href="./index.html">Home</a></li>
-        <li><a href="./blog.html">Blog</a></li>
-        <li><a href="./about.html">About</a></li>
-        <li><a href="./contact.html">Contact</a></li>
-    </ul>
-    <h1>Home page</h1>
-    <div class="blog">
-        <div class="container">
-        <h2 class="text-center">Blog</h2>
-         <div class="row">
-          <div class="col-md-4 col-lg-4 col-sm-12">
-           <div class="card">
-            <div class="card-img">
-             <img src="images/posts/polit.jpg" class="img-fluid">
+        <nav class="siteHeader">
+                <input type="checkbox" id="menu-trigger" />
+                <label class='label' for="menu-trigger"><i class="fa fa-bars" aria-hidden="true"></i> </label>
+            <div class="siteHeader__section">
+                <div class="siteHeader__item siteHeaderButton"><a href="./index.html">Home</a></div>
+                <div class="siteHeader__item siteHeaderButton"><a href="./blog.html">Blog</a></div>
+                <div class="siteHeader__item siteHeaderButton"><a href="./team.html">Team</a></div>
             </div>
-            
-            <div class="card-body">
-            <h4 class="card-title">Post Title</h4>
-             <p class="card-text">
-              
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-             </p>
+                <div class="siteHeader__section">
+                <div class="siteHeader__item siteHeaderButton"><a href="./about.html">About</a></div>
+                <div class="siteHeader__item siteHeaderButton"><a href="./contact.html">Contacts</a></div>
             </div>
-            <div class="card-footer">
-             <a href="" class="card-link">Read more</a>
-            </div>
-           </div>
-          </div>
-          <div class="col-md-4 col-lg-4 col-sm-12">
-           <div class="card">
-            <div class="card-img">
-             <img src="images/posts/images.jpg" class="img-fluid">
-            </div>
-            
-            <div class="card-body">
-               <h4 class="card-title">Post Title</h4>
-             <p class="card-text">
-              
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-             </p>
-            </div>
-            <div class="card-footer">
-             <a href="" class="card-link">Read more</a>
-            </div>
-           </div>
-          </div>
-          <div class="col-md-4 col-lg-4 col-sm-12">
-           <div class="card">
-            <div class="card-img">
-             <img src="images/posts/imag2.jpg" class="img-fluid">
-            </div>
-            
-            <div class="card-body">
-            <h4 class="card-title">Post Title</h4>
-             <p class="card-text">
-              
-              proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-             </p>
-            </div>
-            <div class="card-footer">
-             <a href="" class="card-link">Read more</a>
-            </div>
-           </div>
-          </div>
-         </div>
-        </div>
-       </div>
+    
+        </nav>
+        
+    <form name="test" method="post" action="input1.php">
+                <p><b>Ваше имя:</b><br>
+                 <input type="text" size="40">
+                </p>
+                <p><b>Каким браузером в основном пользуетесь:</b><Br>
+                 <input type="radio" name="browser" value="ie"> Internet Explorer<Br>
+                 <input type="radio" name="browser" value="opera"> Opera<Br>
+                 <input type="radio" name="browser" value="firefox"> Firefox<Br>
+                </p>
+                <p>Комментарий<Br>
+                 <textarea name="comment" cols="40" rows="3"></textarea></p>
+                <p><input type="submit" value="Отправить">
+                 <input type="reset" value="Очистить"></p>
+    </form>
+             
 </body>
 </html>

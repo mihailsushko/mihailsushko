@@ -1,0 +1,135 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+.siteHeader {
+display: flex;
+justify-content: space-between;
+padding: 20px;
+background: url(../images/Pngtree.png) rgb(56, 56, 179);
+position:fixed;
+width: 98%;
+
+}
+.siteHeader__section {
+display: flex;
+align-items: center;
+}
+.siteHeader__item {
+padding: 5px 15px;
+font-size: 25px;
+
+}
+.siteHeader__item + .siteHeader__item {
+margin-left: 10px;
+}
+.siteHeaderButton {
+cursor: pointer;
+color: rgb(181, 192, 255);
+border-radius: 15%;
+background: rgba(113, 113, 168, 0.534);
+}
+.siteHeaderButton:hover {
+cursor: pointer;
+color: rgb(53, 52, 143);
+border-radius: 15%;
+background: rgba(255, 255, 255, 0.534);
+transform: scale(1.3);
+transition-delay: 0.08s;
+box-shadow: 0 0 15px 10px #383838;
+}
+.siteHeader a {
+text-decoration: none;
+color: inherit;
+}
+.siteHeader label {
+display: none;
+font-size: 30px;
+position: fixed;
+padding: 5px 10px;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+cursor: pointer;
+z-index: 50;
+}
+
+.siteHeader input[type="checkbox"]+label {
+color: #fff;
+}
+
+.siteHeader input[type="checkbox"]:checked+label {
+color: #fed136;
+font-style: normal;
+}
+
+.siteHeader input[type="checkbox"] {
+display: none;
+}
+
+@media (max-width: 767px) {
+.siteHeader__section {
+flex-flow: column wrap;
+justify-content: space-around;
+padding: 0;
+position: relative;
+display: none;
+}
+
+.siteHeader__section a {
+border-top: 1px solid rgba(255, 255, 255, 0.4);
+border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+text-align: center;
+}
+}
+@media screen and (max-width: 767px) {
+.siteHeader {
+display: flex;
+background: url(./images/Pngtree.png) rgb(56, 56, 179);
+height: 30px;
+}
+
+.siteHeader label {
+display: block;
+}
+
+.siteHeader input[type="checkbox"]:checked~.siteHeader__section {
+display: block;
+}
+
+.siteHeader__section {
+margin-top: 30px;
+width: 100%;    
+
+}
+
+.siteHeader__item{
+width: 100%;    
+}
+
+.siteHeaderButton {
+color: #FFF;
+display: block;
+padding: 15px 10px;
+text-decoration: none;
+}
+
+}
