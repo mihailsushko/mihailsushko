@@ -1,0 +1,26 @@
+{
+  "name": "mihailsushko",
+  "version": "1.0.0",
+  "description": "https://mihailsushko.github.io/mihailsushko/index.html",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihailsushko/mihailsushko.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihailsushko/mihailsushko/issues"
+  },
+  "homepage": "https://github.com/mihailsushko/mihailsushko#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
+}
