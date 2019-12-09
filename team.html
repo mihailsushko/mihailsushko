@@ -9,6 +9,7 @@
     <meta name="description" lang="en" content="Test Mihail Sushko`s website, mihailsushko">
     <meta name="keywords" lang="ua" content="Тестовый сайт, Михаил Сушко, mihailsushko">
     <meta name="keywords" lang="en" content="Test website, Sushko, mihailsushko">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <style> 
 
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Playfair+Display:400,700';
@@ -30,12 +31,12 @@ h1 {
   font-size: 4em;
   font-family: 'Playfair Display', serif;
   margin: 0;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
   position: absolute; 
-  top: 50%; 
-  left: 50%;
-  white-space: nowrap;
-  letter-spacing: 5px;
+  /* top: 50%; 
+  left: 50%; */
+  /* white-space: nowrap; */
+  letter-spacing: 3px;
 }
 h2 {
   font-size: 3em;
@@ -52,6 +53,8 @@ h2 {
   display: inline-block;
   margin-right: 7px;
   transition: .4s linear;
+  text-decoration: none;
+  text-shadow:  0 0 6px #000;
 }
 .share-block a:hover {
   color: white;
@@ -205,9 +208,6 @@ h2 {
         transform: scale3d(1.2, 1.3, 2);
         transition: 0.5s;
         box-shadow: 0 0 10px 5px #383838;
-        /* transform: rotateX(360deg); */
-        transform-style: preserve-3d;
-        /* transform: translate3d(0px, 0px, 20px); */
     }
     .siteHeader a {
         text-decoration: none;
@@ -288,6 +288,25 @@ h2 {
   
 }
 
+  .fa-youtube {
+    color: rgb(228, 78, 78);
+  }
+
+  .fa-facebook {
+    color: rgb(93, 84, 175);
+  }
+
+  .fa-instagram {
+    color: rgb(180, 54, 123);
+  }
+
+  .fa-twitter {
+    color: rgb(114, 212, 236);
+  }
+
+  .fa-linkedin {
+    color: rgb(74, 74, 173);
+  }
         </style>
 </head>
             
@@ -312,96 +331,24 @@ h2 {
         <div class="front">
           <a href="#target" class="home button">обо мне</a>
           <div class="share-block">
-            <a href=""><i class="fa fa-facebook"></i></a>
-            <a href=""><i class="fa fa-instagram"></i></a>
-            <a href=""><i class="fa fa-twitter"></i></a>
-            <a href=""><i class="fa fa-youtube"></i></a>
-            <a href=""><i class="fa fa-linkedin"></i></a>
+            <a href=""><i class="fa fa-facebook fa-2x"></i>Facebook</a>
+            <a href=""><i class="fa fa-instagram fa-2x"></i>Instagram</a>
+            <a href=""><i class="fa fa-twitter fa-2x"></i>Twitter</a>
+            <a href=""><i class="fa fa-youtube fa-2x"></i>Youtube</a>
+            <a href=""><i class="fa fa-linkedin fa-2x"></i>Linkedin</a>
           </div>
-        <h1>ДИЗАЙН & КОД</h1>
-          </div>
+        <div class="inner">
+          <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia vitae accusamus dicta maiores quas provident iusto omnis deleniti maxime explicabo dolorem numquam eos autem quo nobis minus asperiores, saepe aliquam!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia vitae accusamus dicta maiores quas provident iusto omnis deleniti maxime explicabo dolorem numquam eos autem quo nobis minus asperiores, saepe aliquam!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia vitae accusamus dicta maiores quas provident iusto omnis deleniti maxime explicabo dolorem numquam eos autem quo nobis minus asperiores, saepe aliquam!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia vitae accusamus dicta maiores quas provident iusto omnis deleniti maxime explicabo dolorem numquam eos autem quo nobis minus asperiores, saepe aliquam!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia vitae accusamus dicta maiores quas provident iusto omnis deleniti maxime explicabo dolorem numquam eos autem quo nobis minus asperiores, saepe aliquam!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia vitae accusamus dicta maiores quas provident iusto omnis deleniti maxime explicabo dolorem numquam eos autem quo nobis minus asperiores, saepe aliquam!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia vitae accusamus dicta maiores quas provident iusto omnis deleniti maxime explicabo dolorem numquam eos autem quo nobis minus asperiores, saepe aliquam!Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia vitae accusamus dicta maiores quas provident iusto omnis deleniti maxime explicabo dolorem numquam eos autem quo nobis minus asperiores, saepe aliquam!</h1>
+        </div>
+        </div>
         <div class="back">
           <a href="#close" class="close button"><i class="fa fa-home"></i></a>
           <div class="inner">
-            <h2>обо мне</h2>
-            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+            <h2>Обо мне</h2>
+            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur officiis quidem maxime minima hic, velit accusantium omnis sunt ipsa maiores optio corporis obcaecati inventore praesentium minus aperiam quaerat suscipit cupiditate? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, fugit doloribus unde temporibus inventore libero consectetur officiis quidem architecto. Vitae, accusantium! Ullam rem voluptate, quaerat minima ipsum hic aspernatur consequatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam atque molestias deleniti laborum dolores numquam! Non, similique optio enim pariatur sapiente corporis veniam vel omnis fuga dolore perferendis minima expedita.</p>
             </div>
           </div>
         </div>
     </div>
-
-
-    <div> 54</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
-    <div> 5474</div>
 </body>
 </html>
