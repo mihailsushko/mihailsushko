@@ -4,17 +4,12 @@ html {
     font-size: 20px;
     font-family: sans-serif;
     /* background: url(../images/Pngtree.png); */
+    /* background: url(../images/_1DSC0035.JPG); */
+
     background-attachment: fixed;
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-h1 {
-    margin-left: 2rem;
-}
-
-p {
-    margin-left: 2rem;
 }
 
 .navbar {
@@ -22,31 +17,29 @@ p {
     background: url(../images/Pngtree.png) rgb(56, 56, 179);
     background-attachment: fixed;
     display: block;
+    position: fixed;
 }
 
 .logo {
-    margin-left: 2em;
     display: inline-block;
-    padding: 10px 0px;
+    padding: 10px 20px;
 }
 
 .navbar-items {
     float: right;
     margin-top: 0%;
-    padding-right: 2em;
+    padding-right: 20px;
 }
 
 .navbar-items li {
     list-style: none;
     display: inline-block;
-    margin-left: 2em;  
     padding: 10px 10px;
 }
 .navbar a {
     font-size: 1.2em;
-    font-style: bold;
     color: #ffffff; 
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
 }
 a {
     text-decoration: none;
@@ -66,6 +59,7 @@ a:hover, a:focus {
     width: 100vw;
     height: 500px;
     text-align: center;
+    padding: 50px 0 0 0;
 }
 .blog-post {
     box-shadow: 0 0 10px;
@@ -75,6 +69,9 @@ a:hover, a:focus {
     overflow: auto;
 }
 
+.article-text {
+    padding: 30px;
+}
 .blog-post--image {
     margin: auto 10px;
 }

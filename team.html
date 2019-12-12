@@ -16,7 +16,8 @@
 *{box-sizing:border-box}
 body {
   margin: 0;
-  background: url(https://html5book.ru/wp-content/uploads/2017/04/photo-morning-rose.jpg);
+  /* background: url(https://html5book.ru/wp-content/uploads/2017/04/photo-morning-rose.jpg); */
+  background: url(./images/apartment-close-up-coffee-357547.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: 100%;
@@ -28,18 +29,18 @@ body {
 }
 h1 { 
   color: white;
-  font-size: 4em;
+  font-size: 2em;
   font-family: 'Playfair Display', serif;
   margin: 0;
   /* transform: translate(-50%, -50%); */
-  position: absolute; 
+  /* position: absolute;  */
   /* top: 50%; 
   left: 50%; */
   /* white-space: nowrap; */
   letter-spacing: 3px;
 }
 h2 {
-  font-size: 3em;
+  font-size: 1em;
   font-family: 'Playfair Display', serif;
   line-height: 1;
 }
@@ -60,10 +61,11 @@ h2 {
   color: white;
 }
 .container {  
+  /* padding: 90px 0 0 0; */
   width: 100%;
   height: 100%;
     -webkit-perspective: 1200;
-  perspective: 1200;
+  perspective: 1200px;
   -moz-transform: perspective(1200px);
   -webkit-transform-style: preserve-3d;
   -moz-transform-style: preserve-3d; 
@@ -179,7 +181,7 @@ h2 {
         justify-content: space-between;
         padding: 20px;
         background: url(./images/Pngtree.png) rgb(56, 56, 179);
-        /* position: absolute; */
+        /* position: fixed; */
         width: 100%;
     }
     .siteHeader__section {
