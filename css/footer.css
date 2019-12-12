@@ -1,0 +1,23 @@
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 2em;
+    border-top: 2px solid rgb(75, 0, 0);
+    color: rgb(148, 148, 148);
+}
+/* 
+.footer li {
+    display: inline-block;
+    list-style: none;
+}
+
+.footer .footer-socials {
+    margin: 60px 0 20px;
+    text-align: center;
+}
+
+
+.footer .footer-socials a {
+	display: inline-block;
+    text-align: center;
+} */

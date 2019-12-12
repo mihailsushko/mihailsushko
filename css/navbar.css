@@ -17,14 +17,14 @@ border: 0;
 outline: 0;
 font-size: 100%;
 vertical-align: baseline;
-background: transparent;
+/* background: transparent; */
 }
 .siteHeader {
 display: flex;
 justify-content: space-between;
 padding: 20px;
 background: url(../images/Pngtree.png) rgb(56, 56, 179);
-position:fixed;
+/* position:fixed; */
 width: 98%;
 
 }
